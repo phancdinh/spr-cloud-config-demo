@@ -1,0 +1,6 @@
+student-producer:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:222
+    ServerListRefreshInterval: 11
